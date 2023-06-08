@@ -33,6 +33,10 @@ The steps that we are going to follow in our project are as mentioned below:
  
 The QANet architecture uses a combination of convolutional neural networks (CNNs) and self-attention mechanisms to extract information from the input passage and the question. The CNNs capture local features of the input, while the self-attention mechanisms allow the model to attend to different parts of the input at different levels of granularity.
 
+<p align="center">
+<img src="https://github.com/cbass250894/Conversational-Q-A-ChatBot/assets/104287899/3e43cedf-ad91-46f3-a7ec-8839d56604cf" alt="Parameters" width="400" height="400" align="center" />
+</p>
+
 ![image](https://github.com/cbass250894/Conversational-Q-A-ChatBot/assets/104287899/3e43cedf-ad91-46f3-a7ec-8839d56604cf)
 
 QANet is composed of several layers, including embedding layers, convolutional layers, self-attention layers, and output layers. The embedding layers transform the input text into a sequence of vectors, which are then fed into the convolutional layers to extract local features. The self-attention layers are used to compute the global representation of the input by attending to different parts of the sequence. Finally, the output layers predict the start and end positions of the answer within the input sequence.
